@@ -11,7 +11,7 @@ This is the beginning of an open source machine learning framework that I intend
 ### Algorithms to implement:
 
 * k-means clustering
-  ~~* hard k-means clustering~~
+  * ~~hard k-means clustering~~
   * soft k-means clustering
 * simple linear regression
 * perceptron neural network
