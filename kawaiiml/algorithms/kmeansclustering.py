@@ -11,6 +11,10 @@ class KMeansClustering:
         if observations.size < k:
             raise ValueError('Number of clusters %d is greater than the number of observations %d.' % (k, observations.size))
 
+        # see if observations is one-dimensional
+        if observations.ndim != 1:
+            raise ValueError('Dimension of observations is %d, expected 1' % (observations.ndim))
+
     def hard_kmeans(self):
         """Uses the Lloyod's algorithm to perform hard k-means clustering."""
 
