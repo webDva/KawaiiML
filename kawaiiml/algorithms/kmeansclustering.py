@@ -7,6 +7,10 @@ class KMeansClustering:
         self.observations = observations
         self.k = k
 
+        # see if the number of observations is greater than or equal to the number of clusters
+        if observations.size < k:
+            raise ValueError('Number of clusters %d is greater than the number of observations %d.' % (k, observations.size))
+
     def hard_kmeans(self):
         """Uses the Lloyod's algorithm to perform hard k-means clustering."""
 
