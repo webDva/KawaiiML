@@ -16,6 +16,10 @@ This is the beginning of an open source machine learning framework that I intend
 * simple linear regression
 * perceptron neural network
 
+### Helper functions implemented:
+
+* gradient descent using mean squared error cost function for a set of training sample pairs
+
 # Notes
 
 * Uses Python 2
