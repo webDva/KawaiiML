@@ -10,15 +10,17 @@ This is the beginning of an open source machine learning framework that I intend
 
 ### Algorithms to implement:
 
-* k-means clustering
-  * ~~hard k-means clustering~~
-  * soft k-means clustering
-* simple linear regression
-* perceptron neural network
+* [ ] k-means clustering
+  * [X] hard k-means clustering
+  * [ ] soft k-means clustering
+* [ ] simple linear regression
+* [ ] perceptron neural network
 
-### Helper functions implemented:
+### Helper functions:
 
-* gradient descent using mean squared error cost function for a set of training sample pairs
+* [X] gradient descent using mean squared error cost function for a set of training sample pairs
+* [ ] single perceptron
+* [ ] sigmoid activation function
 
 # Notes
 
